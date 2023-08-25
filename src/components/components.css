@@ -1,0 +1,65 @@
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+  }
+  
+  .brand {
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .brand:hover{
+    letter-spacing: 3px;
+  }
+  .get-users-button {
+    background-color: #063ffa;
+    color: white;
+    border: 2px solid white;
+    border-radius: 32px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  .get-users-button:hover{
+    background-color: yellow;
+    color: red;
+  }
+
+  
+  /* User Card styles */
+  .user-card {
+    border: 3px solid #ff9900;
+    border-radius: 15px 50px;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(206, 196, 196);
+    color: black;
+  }
+  .user-card:hover{
+    background-color: rgb(125, 117, 117);
+    color: white;
+    
+  }
+  .user-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* User Grid styles */
+  .user-grid {
+    margin: 35px 80px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 45px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
